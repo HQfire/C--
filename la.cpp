@@ -7,6 +7,8 @@ struct User {
  std::string securityAnswer;
  std::string password;
 };
+
+
 //模拟数据库的查找功能
 User findUser(const std::string& usernameOrEmail) {
  //在数据库中搜索用户数据
