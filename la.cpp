@@ -9,7 +9,6 @@ struct User {
 };
 //模拟数据库的查找功能
 User findUser(const std::string& usernameOrEmail) {
-    
  //在数据库中搜索用户数据
  //这是一个简单的示例，替换为实际的文件查找操作
  return {"ABC", "a@example.com", "What is your favorite color?", "blue", "password123"};
