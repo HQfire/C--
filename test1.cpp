@@ -10,6 +10,8 @@ int main(){
     int Change;
     Change=first(Change);
     ifelse(Change);
+
+    printf("hello");
     return 0;
 }
 
